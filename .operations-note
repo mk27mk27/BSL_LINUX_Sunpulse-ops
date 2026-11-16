@@ -1,0 +1,4 @@
+Internal training note for SunPulse Solar Farm.
+Use loopback networking only for the TCP receiver.
+Preserve original evidence before troubleshooting.
+Do not change real infrastructure or production data.

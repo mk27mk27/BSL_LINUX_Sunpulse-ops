@@ -1,0 +1,66 @@
+SUNPULSE SOLAR FARM
+INCIDENT INVESTIGATION REPORT
+
+SOL-501: TELEMETRY RECEIVER STOPPED
+
+Symptom:
+TCP connection failed after stopping the receiver.
+
+Evidence:
+Successful connection before stopping.
+Failed connection after stopping.
+
+Root Cause:
+No active listener on port 9101.
+
+Recovery:
+Restarted the TCP receiver.
+
+
+SOL-502: WRONG TELEMETRY PORT
+
+Symptom:
+Connection attempted on port 9109.
+
+Evidence:
+Port 9109 connection test failed.
+Port 9101 connection test succeeded.
+
+Root Cause:
+Incorrect TCP port configured by the client.
+
+Recovery:
+Use port 9101.
+
+
+SOL-503: REPEATED INVERTER OUTAGE
+
+Symptom:
+Repeated OFFLINE readings.
+
+Evidence:
+INV-02 has two OFFLINE records.
+
+Root Cause:
+Repeated offline condition observed.
+Physical cause not established.
+
+Recommendation:
+Investigate inverter power and communication.
+
+
+SOL-504: MISSING BATCH RECORD
+
+Symptom:
+Incomplete message batch identified
+during controlled comparison.
+
+Evidence:
+Compare sample_messages.txt
+with the actual receiver evidence.
+
+Root Cause:
+Complete according to the actual comparison.
+
+Recovery:
+Identify and resend missing records.

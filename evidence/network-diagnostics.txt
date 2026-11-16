@@ -1,0 +1,35 @@
+root@WD103178166130platinumcloudal0NrN1mVC:~/sunpulse-ops# ls -lhra
+total 40K
+drwxr-xr-x  2 root root 4.0K Nov 11 06:16 scripts
+drwxr-xr-x  2 root root 4.0K Nov 11 06:16 reports
+-rw-r--r--  1 root root  662 Nov 11 06:33 README.md
+-rw-r--r--  1 root root  204 Nov 11 06:26 .operations-note
+drwxr-xr-x  2 root root 4.0K Nov 11 05:00 logs
+drwxr-xr-x  2 root root 4.0K Nov 11 06:16 evidence
+drwxr-xr-x  2 root root 4.0K Nov 11 06:22 data
+drwxr-xr-x  2 root root 4.0K Nov 11 06:24 config
+drwx------ 27 root root 4.0K Nov 11 05:00 ..
+drwxr-xr-x  8 root root 4.0K Nov 11 06:33 .
+
+root@WD103178166130platinumcloudal0NrN1mVC:~/sunpulse-ops# du -sh ~/sunpulse-ops
+48K	/root/sunpulse-ops
+
+
+
+
+Task 6:
+File Comparison Findings:
+
+Original File: logs/receiver.log.original
+Working File: logs/receiver.log.work
+
+Comparison Method:
+cmp and diff.
+
+Observed Result:
+Both files contain identical data.
+cmp returned exit status 0.
+diff produced no output.
+
+Discrepancies:
+No differences identified.
