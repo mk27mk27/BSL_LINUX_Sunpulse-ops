@@ -8,10 +8,10 @@ Local TCP message reception and operations monitoring exercise.
 1. Member 1 - Abinaya P
    Responsibility: Linux Workspace and Permissions
 
-2. Member 3 - Mohammed Kamil
+2. Member 2 - Mohammed Kamil
    Responsibility: Operations Data Analysis
 
-3. Member 2 - Nisha A P
+3. Member 3 - Nisha A P
    Responsibility: TCP Networking and Diagnostics
 
 4. Member 4 - Ishwa bharath
